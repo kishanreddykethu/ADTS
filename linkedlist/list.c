@@ -33,7 +33,7 @@ void list_push(nodeptr *p,int n)
 }
 void list_pop(nodeptr *p)
 {	nodeptr temp = *p;
-	if(temp==NULL)
+	if(temp==NULL)//checks if there are no elements
 	{
 		return;
 	}
